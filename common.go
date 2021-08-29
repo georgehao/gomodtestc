@@ -2,6 +2,6 @@ package gomodtestc
 
 import "fmt"
 
-func PrintStr(str string) string {
-	return fmt.Sprintf("project C %s", str)
+func PrintStr(str string, num int) string {
+	return fmt.Sprintf("project C %s_%d", str, num)
 }
